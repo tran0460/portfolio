@@ -21532,4 +21532,20 @@ textarea.form-control-lg {
   height: 100vh;
 }
 
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #000;
+}
+
+.form-control:focus,
+.form-control:active {
+  outline: none !important;
+  border: 2px solid #000;
+}
+
+textarea {
+  border: 1px solid #000 !important;
+}
+
 /*# sourceMappingURL=main.css.map */
