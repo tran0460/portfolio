@@ -21548,4 +21548,56 @@ textarea {
   border: 1px solid #000 !important;
 }
 
+/*----------------- Skip Links -----------------*/
+.skip-links {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -100rem;
+  display: inline-block;
+  padding: 1rem;
+  background-color: #282828;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 100000;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+/* To top button */
+.to-top {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  transform: translateY(100%);
+  transition: background-color 0.2s, color 0.2s, opacity 0.2s, transform 0.2s;
+}
+
+.to-top a {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  padding: 1rem;
+  margin-bottom: 3.3rem;
+  background-color: #171717;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 100000;
+  position: fixed;
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+
+.to-top.visible {
+  transform: none;
+}
+
 /*# sourceMappingURL=main.css.map */
