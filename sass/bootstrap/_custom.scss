@@ -17,9 +17,16 @@
         width: 70%;
     }
 }
+.hover img {
+    padding: 1rem;
+}
+.card-body {
+    padding-top: 0;
+}
 .hover:hover {
     cursor: pointer;
     & .card-body {
+        padding-top: 1rem;
         background-color: #000;
         color: #fff;
     }

@@ -21516,10 +21516,19 @@ textarea.form-control-lg {
     width: 70%;
   }
 }
+.hover img {
+  padding: 1rem;
+}
+
+.card-body {
+  padding-top: 0;
+}
+
 .hover:hover {
   cursor: pointer;
 }
 .hover:hover .card-body {
+  padding-top: 1rem;
   background-color: #000;
   color: #fff;
 }
