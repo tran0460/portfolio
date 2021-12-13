@@ -21498,7 +21498,7 @@ textarea.form-control-lg {
   }
 }
 .about-me-banner {
-  background-image: url("../../images/banner.png");
+  background-image: url("../images/banner.png");
   width: 100vw;
   height: 60vh;
   background-size: cover;
