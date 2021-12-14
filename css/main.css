@@ -21497,8 +21497,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/*----------------- Banner -----------------*/
 .about-me-banner {
   background-image: url("../images/banner.png");
+  background-color: rgba(0, 0, 0, 0.75);
   width: 100vw;
   height: 60vh;
   background-size: cover;
@@ -21516,27 +21518,16 @@ textarea.form-control-lg {
     width: 70%;
   }
 }
-.hover img {
-  padding: 1rem;
-}
-
+/*----------------- Cards -----------------*/
 .card-body {
   padding-top: 0;
 }
 
-.hover:hover {
-  cursor: pointer;
-}
-.hover:hover .card-body {
-  padding-top: 1rem;
-  background-color: #000;
-  color: #fff;
+.card img {
+  padding: 1rem;
 }
 
-.margin-2 {
-  margin: 0 2%;
-}
-
+/*----------------- Form -----------------*/
 .contact {
   height: 100vh;
 }
@@ -21580,7 +21571,7 @@ textarea {
   top: 0;
 }
 
-/* To top button */
+/*----------------- To Top -----------------*/
 .to-top {
   padding: 0;
   margin: 0;
@@ -21609,66 +21600,17 @@ textarea {
   transform: none;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+.navbar-brand {
+  font-size: 2rem;
+}
+
+h1 .navbar-brand, .h1 .navbar-brand {
   font-weight: 400;
-  line-height: 1.3;
 }
 
-h1, .h1 {
-  margin-top: 0;
-  font-size: 1.802rem;
-}
-
-h2, .h2 {
-  font-size: 1.602rem;
-}
-
-h3, .h3 {
-  font-size: 1.424rem;
-}
-
-h4, .h4 {
-  font-size: 1.266rem;
-}
-
-h5, .h5 {
-  font-size: 1.125rem;
-}
-
-@media only screen and (min-width: 45em) {
-  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-    font-weight: 400;
-    line-height: 1.3;
-  }
-
-  header .navbar-brand {
-    font-size: inherit;
-  }
-
-  h1, .h1 {
-    margin-top: 0;
-    font-size: 3.052rem;
-  }
-
-  h2, .h2 {
-    font-size: 2.441rem;
-  }
-
-  h3, .h3 {
-    font-size: 1.953rem;
-  }
-
-  h4, .h4 {
-    font-size: 1.563rem;
-  }
-
-  h5, .h5 {
-    font-size: 1.25rem;
-  }
-
-  small, .small, .text_small {
-    font-size: 0.8rem;
-  }
+/*----------------- Fix contrast error -----------------*/
+.carousel-inner {
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 /*# sourceMappingURL=main.css.map */
